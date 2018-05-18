@@ -1,0 +1,14 @@
+cd $BUILDSPACE/
+
+======
+./mk -o=TARGET_BUILD_VARIANT=user hq8127_tb_b2b_l a1900l[lenovo_row] new 
+
+
+kernel
+======
+./mk new k 
+./mk bootimage
+
+
+======
+Contact Lenovo support for information on obtaining Open Source code.
